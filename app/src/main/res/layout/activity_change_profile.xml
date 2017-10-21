@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.amany.eng.com.myglobalapplication.Change_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="70dp"
+            android:layout_height="42dp"
+             android:text="حفظ"
+            android:textStyle="bold"
+            android:textColor="#00E676"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="تعديل الحساب"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/am"
+            android:text="تغيير"
+            />
+
+        <LinearLayout
+            android:gravity="right|bottom"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_gravity="right"
+                android:layout_height="50dp"
+                android:src="@drawable/aw"
+                android:id="@+id/img_circle_myProfile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:text="تغيير"
+
+                />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin30">
+
+            <TextView
+                android:id="@+id/my_name"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="اماني عبدالله"
+                android:textStyle="italic"
+                android:textSize="21dp"
+                android:layout_margin="9dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/name5"
+            android:text="الاسم"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin34">
+
+            <TextView
+                android:id="@+id/career"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="مطورة برامج"
+                android:textStyle="italic"
+                android:textSize="21dp"
+                android:layout_margin="9dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="60dp"
+            android:id="@+id/name4"
+            android:text="الوظيفة"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin37">
+
+            <TextView
+                android:id="@+id/story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نصصصصصصصصصصصصصصصصع"
+                android:textStyle="italic"
+                android:textSize="21dp"
+                android:layout_margin="9dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name48"
+            android:text="نبذة"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/lin49">
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:id="@+id/img"
+                android:src="@drawable/less"
+                android:layout_gravity="left"
+                android:onClick="date_picker"
+                android:layout_marginRight="160dp"
+                />
+
+            <TextView
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="غزة -فلسطين"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name78"
+            android:text="العنوان"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin14">
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/amanyabda"
+                android:textStyle="italic"
+                android:textSize="21dp"
+                android:layout_margin="9dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name89"
+            android:text="الموقع"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/lin499">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:id="@+id/date_picker"
+            android:src="@drawable/less"
+            android:layout_gravity="left"
+            android:onClick="date_picker"
+            android:layout_marginRight="160dp"
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="30/6/1994"
+            android:layout_marginRight="10dp"
+            android:textStyle="italic"
+            android:textSize="21sp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name879"
+            android:text="تاريخ الميلاد"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.amany.eng.com.myglobalapplication.Sitting_Activity"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="70dp"
+            android:layout_height="42dp"
+            android:src="@drawable/less"
+
+            />
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="الاعدادات"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/resha"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#E0E0E0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اعدادات شخصية"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:background="#E0E0E0"
+        android:layout_weight="0.02"
+        />
+
+
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin45">
+
+                <TextView
+                    android:id="@+id/email_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="تغيير الايميل"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="italic"
+                    android:textSize="21sp"
+                     />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_email"
+            android:src="@drawable/email"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin44">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تغيير كلمة السر"
+                android:textStyle="italic"
+                android:layout_marginRight="10dp"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_pass"
+            android:src="@drawable/password"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin46">
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تغيير رقم الجوال"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_phone"
+            android:src="@drawable/phone"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#E0E0E0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اعدادات التطبيق"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:background="#E0E0E0"
+        android:layout_weight="0.02" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin47">
+
+            <TextView
+                android:id="@+id/ppne"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="الاشعارات"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_switch"
+            android:src="@drawable/notifictaion"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+
+
+
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin48">
+
+            <TextView
+                android:id="@+id/phpne"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="الاصدار"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_version"
+            android:src="@drawable/version"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#E0E0E0" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اتصل بنا"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:background="#E0E0E0"
+        android:layout_weight="0.02" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/lin49">
+            <ImageView
+                android:layout_width="58dp"
+                android:layout_height="41dp"
+                android:id="@+id/img"
+                android:src="@drawable/close"
+                android:layout_gravity="left"
+                android:layout_marginRight="140dp"
+                />
+
+            <TextView
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تواصل معنا"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_call"
+            android:src="@drawable/call"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#E0E0E0" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تسجيل خروج"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:background="#E0E0E0"
+        android:layout_weight="0.02" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/lin50">
+
+            <TextView
+                android:id="@+id/out"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تسجيل خروجك"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            android:id="@+id/img_out"
+            android:src="@drawable/out"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E0E0E0" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="317dp"
+        android:layout_gravity="bottom">
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            app:itemIconTint="@color/nav_item_state_list"
+            app:itemTextColor="@color/nav_item_state_list"
+            app:menu="@menu/bottom_nav_menu" />
+    </FrameLayout>
+</LinearLayout>
+    </ScrollView>

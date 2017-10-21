@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/lov"
+            android:src="@drawable/lov"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="20"
+            android:textSize="15dp"
+            android:id="@+id/lov_no"
+            android:background="#fff"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اماني عبدالله"
+                android:id="@+id/postertitle"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="منذ  8   ساعات"
+                android:id="@+id/postTime"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_gravity="right"
+            android:id="@+id/posterImg"
+            android:layout_height="100dp"
+            android:src="@drawable/asd"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#fff" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/question"
+        android:text="هذاالنص قابل للتعديل فيما بعد ويمكن تغيره في اي وقت"
+        />
+
+
+
+    <View
+        android:layout_marginTop="-6dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c5ade9" />
+
+
+</LinearLayout>
+    </ScrollView>

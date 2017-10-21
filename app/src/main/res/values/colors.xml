@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorAccent">#e5e7e7e7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteOverlay">#afffffff</color>
+    <color name="colorTextDesc">#7D7D7D</color>
+    <color name="colorDivider">#E9E9E9</color>
+    <color name="colorDarkGray">#494949</color>
+    <color name="view_bg">#b5488516</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_bg">#3e4a56</color>
+    <color name="btn">#33ffffff</color>
+    <color name="nav_item_state_list">#33ffffff</color>
+
+
+</resources>
